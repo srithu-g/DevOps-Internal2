@@ -8,6 +8,6 @@ def submit():
     name=request.form['name']
     roll=request.form['roll']
     email=request.form['email']
-    return render_template('results.html',name=name,roll=roll,email=email)
+    return render_template('result.html',name=name,roll=roll,email=email)
 if __name__=='__main__':
     app.run(debug=True)
